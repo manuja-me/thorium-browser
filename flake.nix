@@ -23,7 +23,7 @@
 
           src = pkgs.fetchurl {
             url = "https://github.com/Alex313031/thorium/releases/download/M${thorium-version}/thorium-browser_${thorium-version}_${thorium-channel}.deb";
-            sha256 = "sha256-BZR0KbECUAX+5fMCoOv5WkU/nwZMm86DFgpfOp9CbcA=";
+            sha256 = "sha256-xyVis7Zww8H28GRUDX6LR9txP74h/2w%2BqVBXrCsHnFQ%3D";
           };
 
           nativeBuildInputs = [ 
